@@ -8,7 +8,7 @@ Once the restoration is complete, I will merge the restored features into the [m
 I've made several attempts to remake the SCP: Dystopia addon before, but none have achieved the goal of full restoration.
 
 With my experiences from [SCP: Dystopia Redefined](https://mcpedl.com/scp-dystopia-redefined/) and [recent alpha iterations](https://github.com/lc-studios-mc/scp-dystopia),
-I can say that focusing on restoring old features while adding new *polished* features is quite difficult.
+I can say that focusing on restoring old features while adding new _polished_ features is quite difficult.
 
 ## The Goal
 
