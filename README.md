@@ -30,3 +30,11 @@ A list of thoughts that I hope will lead me in the right direction:
 - Avoid writing behavior pack scripts if same thing can be done easily in traditional JSON.
 - Inside scripts, wrap Beta API calls with helper functions.
   - So it's easier to fix when there's a new Minecraft update.
+
+<hr/>
+
+## Other Information
+
+For bug reports, suggestions, etc., please use [GitHub Issues](https://github.com/lc-studios-mc/scp-dystopia-v1-restoration/issues).
+
+Contact: info@lc-studios.net
