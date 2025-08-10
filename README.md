@@ -12,10 +12,16 @@ I can say that focusing on restoring old features while adding new *polished* fe
 
 ## :placard: The Goal
 
-The goal is to **restore features from v1 by writing most of them from scratch**.
+The goal here is to **restore features from v1**.
 
 A list of thoughts that I hope will lead me in the right direction:
 
+- Write features from scratch.
+  - Old code from v1 is such a mess that I simply can't accept.
+  - I learned a lot since when I released v1.
+- Keep code simple and easy to expand.
+  - Avoid focusing on complex behavior at early stage.
+  - "Easy to expand" means I should not be having to rewrite it when I want to extend its functionality.
 - Avoid adding new features unless it is required.
 - Avoid writing complex behavior pack scripts as much as possible.
   - Be especially careful with Beta APIs.
