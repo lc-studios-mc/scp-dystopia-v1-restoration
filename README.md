@@ -10,7 +10,7 @@ I've made several attempts to remake the SCP: Dystopia addon before, but none ha
 With my experiences from [SCP: Dystopia Redefined](https://mcpedl.com/scp-dystopia-redefined/) and [recent alpha iterations](https://github.com/lc-studios-mc/scp-dystopia),
 I can say that focusing on restoring old features while adding new *polished* features is quite difficult.
 
-## :placard: The Goal
+## The Goal
 
 The goal here is to **restore features from v1**.
 
@@ -30,8 +30,6 @@ A list of thoughts that I hope will lead me in the right direction:
 - Avoid writing behavior pack scripts if same thing can be done easily in traditional JSON.
 - Inside scripts, wrap Beta API calls with helper functions.
   - So it's easier to fix when there's a new Minecraft update.
-
-<hr/>
 
 ## Other Information
 
