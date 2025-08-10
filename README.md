@@ -22,10 +22,11 @@ A list of thoughts that I hope will lead me in the right direction:
 - Keep code simple and easy to expand.
   - Avoid focusing on complex behavior at early stage.
   - "Easy to expand" means I should not be having to rewrite it when I want to extend its functionality.
-- Avoid adding new features unless it is required.
-- Avoid writing complex behavior pack scripts as much as possible.
-  - Be especially careful with Beta APIs.
 - Avoid improving front end (textures, 3D models, audio, etc.) until I'm ready to.
   - Making a good asset takes some time and dedication.
   - I want to focus on creating a good architecture.
   - I can always do this later.
+- Avoid adding new features unless it is required.
+- Avoid writing behavior pack scripts if same thing can be done easily in traditional JSON.
+- Inside scripts, wrap Beta API calls with helper functions.
+  - So it's easier to fix when there's a new Minecraft update.
