@@ -1,0 +1,9 @@
+{
+	"private": true,
+	"devDependencies": {
+		"cross-env": "^10.0.0",
+		"dprint": "^0.50.1",
+		"shx": "^0.4.0",
+		"typescript": "^5.9.2"
+	}
+}
