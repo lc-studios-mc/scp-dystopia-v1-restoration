@@ -4,6 +4,7 @@
 		"format": "dprint fmt"
 	},
 	"devDependencies": {
+		"@lc-studios-js/mcpacker": "^0.0.1",
 		"dotenv-cli": "^10.0.0",
 		"dprint": "^0.50.1",
 		"shx": "^0.4.0",
