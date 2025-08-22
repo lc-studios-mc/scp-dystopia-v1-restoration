@@ -15,7 +15,8 @@ export default defineConfig((args) => {
 	const bpManifest = {
 		format_version: 2,
 		header: {
-			description: "Restoration of the v1 features is the most important step towards the full v2.0 release.",
+			description:
+				"Restoration of the v1 features is the most important step towards the full v2.0 release.",
 			name: "SCP:DY v1 restoration BP",
 			uuid: "531841ee-1e6f-46e1-bad7-1a77d94d70c1",
 			version: [0, 0, 1],
