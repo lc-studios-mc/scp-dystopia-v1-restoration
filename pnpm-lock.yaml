@@ -21,6 +21,9 @@ importers:
       dotenv-cli:
         specifier: ^10.0.0
         version: 10.0.0
+      prettier:
+        specifier: ^3.6.2
+        version: 3.6.2
       shx:
         specifier: ^0.4.0
         version: 0.4.0
@@ -456,6 +459,11 @@ packages:
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   pump@3.0.3:
     resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
@@ -944,6 +952,8 @@ snapshots:
       minipass: 7.1.2
 
   picomatch@2.3.1: {}
+
+  prettier@3.6.2: {}
 
   pump@3.0.3:
     dependencies:
