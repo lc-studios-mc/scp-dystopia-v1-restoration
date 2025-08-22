@@ -11,5 +11,7 @@
 	"files.associations": {
 		"*.json": "jsonc",
 		"package.json": "json"
-	}
+	},
+	"json5.validate.enable": true,
+	"json5.format.enable": false // Prettier is used instead
 }
