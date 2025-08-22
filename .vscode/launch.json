@@ -1,0 +1,17 @@
+{
+	"version": "0.3.0",
+	"configurations": [
+		{
+			// Extension: https://marketplace.visualstudio.com/items?itemName=mojang-studios.minecraft-debugger
+			"type": "minecraft-js",
+			"name": "Debug with Minecraft",
+			"request": "attach",
+			"mode": "listen",
+			"port": 19144,
+			"targetModuleUuid": "473d85d8-1154-4c8e-917b-3dc19c64def2", // UUID of the behavior pack script module
+
+			"localRoot": "${workspaceFolder}/src/bp/scripts/",
+			"sourceMapRoot": "${userHome}/AppData/Local/Packages/Microsoft.MinecraftUWP_8wekyb3d8bbwe/LocalState/games/com.mojang/development_behavior_packs/scpdy_v1_restoration_bp/scripts/"
+		}
+	]
+}
