@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@minecraft/server':
+        specifier: 2.2.0-beta.1.21.100-stable
+        version: 2.2.0-beta.1.21.100-stable(@minecraft/vanilla-data@1.21.101)
     devDependencies:
       '@lc-studios-js/mcpacker':
         specifier: ^0.0.1
@@ -246,6 +250,17 @@ packages:
     resolution: {integrity: sha512-YSNuEqX9od7XclVV1cfCEs+/HQV21v1C1NSk1D85Z7PWjB9h9zNPtNS+xMYcQQHCACs347UVvxrpklRcxL70aQ==}
     engines: {node: '>= 22'}
     hasBin: true
+
+  '@minecraft/common@1.2.0':
+    resolution: {integrity: sha512-JdmEq4P3Z/FtoBzhLijFgMSVFnFRrUoLwY8DHHrgtFo0mfLTOLTB1RErYjLMsA6b7BGVNxkX/pfFRiH7QZ0XwQ==}
+
+  '@minecraft/server@2.2.0-beta.1.21.100-stable':
+    resolution: {integrity: sha512-X6W841dcMqIPK6xar+GowUyXDwCUPnJpVRrwT3+Vwt/VylVZqOhk7Xr0rnViGKKxCO49YvN1NF4pmK2ISE57oQ==}
+    peerDependencies:
+      '@minecraft/vanilla-data': '>=1.20.70'
+
+  '@minecraft/vanilla-data@1.21.101':
+    resolution: {integrity: sha512-/SaOkginnFrzWKM6MXcn7RUfL52rvqUPd+u6jNkLm/t6GBj+Kh+ys/go6hFJqMAveHqXw0G2bgH8gKCaMobcvw==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -749,6 +764,15 @@ snapshots:
       glob: 11.0.3
       json5: 2.2.3
       minimatch: 10.0.3
+
+  '@minecraft/common@1.2.0': {}
+
+  '@minecraft/server@2.2.0-beta.1.21.100-stable(@minecraft/vanilla-data@1.21.101)':
+    dependencies:
+      '@minecraft/common': 1.2.0
+      '@minecraft/vanilla-data': 1.21.101
+
+  '@minecraft/vanilla-data@1.21.101': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
